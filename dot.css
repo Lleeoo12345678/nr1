@@ -1,0 +1,42 @@
+
+.div1{
+    background-color: aquamarine;
+    display: flex;
+    border: dotted;
+    border-color: antiquewhite;
+    height: 50px;
+    justify-content: space-between;
+    margin-left: 10px;
+    
+}
+.button1{
+    background-color: aqua;
+    color: black;
+    border: none ;
+    box-shadow: 10px 5px ;
+    
+    
+}
+.button1:hover {
+    background-color: beige;
+    scale: 1.2;
+    color: blue;
+    text-decoration: line-through;
+
+}
+.div2{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    transition: 2s linear;
+   
+   
+}
+.img1:hover{
+    scale: 2;
+}
